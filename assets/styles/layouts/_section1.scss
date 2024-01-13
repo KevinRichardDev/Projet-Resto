@@ -1,0 +1,77 @@
+.section-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: $colorBg1;
+  .section-left {
+    border: 1px dashed $color2;
+    margin: 10px 10px;
+    background: $colorBg1;
+    .title-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      h3 {
+        font-family: $font1;
+        font-size: 1.8rem;
+        color: $color2;
+        font-weight: 300;
+        text-align: end;
+        text-align: center;
+      }
+      h2 {
+        font-family: $font2;
+        text-transform: uppercase;
+        font-size: 1rem;
+        text-align: center;
+      }
+      .img-left {
+        padding: 20px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .p-left {
+        width: 100%;
+        p {
+          font-family: $font2;
+          line-height: 15px;
+          font-size: 0.8rem;
+          font-weight: 100;
+          text-align: center;
+        }
+      }
+      .portrait-left {
+        padding: 30px 0 15px 0;
+        margin: 0 auto;
+        img {
+          width: 50px;
+          height: auto;
+          border-radius: 50px;
+        }
+      }
+      .name-left {
+        margin: 0 auto;
+        p {
+          font-family: $font2;
+          font-size: 1rem;
+          font-weight: 800;
+        }
+      }
+      .role-left {
+        margin: 0 auto;
+        p {
+          color: rgb(165, 164, 164);
+          text-transform: uppercase;
+          font-family: $font2;
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+  .section-right{
+    background: url("../img/store-01.jpg") center/cover;
+  }
+}

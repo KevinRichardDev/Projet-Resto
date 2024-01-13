@@ -59,7 +59,7 @@ header {
         font-size: 1.2rem;
         transition: .2s;
         &:hover {
-          transform: translateY(-2px);
+          transform: translateY(-3px);
         }
       }
       a {
@@ -84,10 +84,12 @@ header {
       font-size: 5rem;
       font-family: $font2;
       text-transform: uppercase;
-      letter-spacing: 8px;
+      letter-spacing: 6px;
     }
     img {
       margin: 25px auto;
+      width: 30px;
+      height: auto;
     }
     p {
       color: $color1;
