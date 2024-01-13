@@ -17,7 +17,7 @@
     background: url("../img/bg-menu-01.jpg") center/cover;
   }
   .title {
-    margin: 40px 0 20px 0;
+    margin: 60px 0 20px 0;
     h3 {
       font-family: $font1;
       color: $color2;
@@ -60,6 +60,7 @@
   .menu {
     z-index: 1;
     width: 50%;
+    padding-bottom: 20px;
     margin: 0 auto;
     background: $colorBg1;
     border-top: 4px solid $color2;
@@ -71,10 +72,316 @@
       "m5 m6"
       "m7 m8";
     .menu-1 {
+      padding: 40px 0 40px 0;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       grid-area: m1;
+      border-bottom: 1px dashed rgb(180, 175, 175);
+      width: 90%;
+      margin: 0 auto;
+      .menu-img {
+        img {
+          margin: 0 10px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+      }
+      .menu-composition {
+        h3{
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1rem;
+          font-family: $font2;
+          font-weight: 100;
+          margin-top: 5px;
+        }
+      }
+      .menu-price {
+        p {
+          margin: 0 10px;
+          font-size: 1.5rem;
+          color: $color2;
+          font-family: $font2;
+        }
+      }
+    }
+    .menu-2 {
+      padding: 40px 0 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      grid-area: m2;
+      border-bottom: 1px dashed rgb(180, 175, 175);
+      width: 90%;
+      margin: 0 auto;
+      .menu-img {
+        img {
+          margin: 0 10px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+      }
+      .menu-composition {
+        h3{
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1rem;
+          font-family: $font2;
+          font-weight: 100;
+          margin-top: 5px;
+        }
+      }
+      .menu-price {
+        p {
+          margin: 0 10px;
+          font-size: 1.5rem;
+          color: $color2;
+          font-family: $font2;
+        }
+      }
+    }
+    .menu-3 {
+      padding: 40px 0 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      grid-area: m3;
+      border-bottom: 1px dashed rgb(180, 175, 175);
+      width: 90%;
+      margin: 0 auto;
+      .menu-img {
+        img {
+          margin: 0 10px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+      }
+      .menu-composition {
+        h3{
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1rem;
+          font-family: $font2;
+          font-weight: 100;
+          margin-top: 5px;
+        }
+      }
+      .menu-price {
+        p {
+          margin: 0 10px;
+          font-size: 1.5rem;
+          color: $color2;
+          font-family: $font2;
+        }
+      }
+    }
+    .menu-4 {
+      padding: 40px 0 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      grid-area: m4;
+      border-bottom: 1px dashed rgb(180, 175, 175);
+      width: 90%;
+      margin: 0 auto;
+      .menu-img {
+        img {
+          margin: 0 10px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+      }
+      .menu-composition {
+        h3{
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1rem;
+          font-family: $font2;
+          font-weight: 100;
+          margin-top: 5px;
+        }
+      }
+      .menu-price {
+        p {
+          margin: 0 10px;
+          font-size: 1.5rem;
+          color: $color2;
+          font-family: $font2;
+        }
+      }
+    }
+    .menu-5 {
+      padding: 40px 0 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      grid-area: m5;
+      border-bottom: 1px dashed rgb(180, 175, 175);
+      width: 90%;
+      margin: 0 auto;
+      .menu-img {
+        img {
+          margin: 0 10px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+      }
+      .menu-composition {
+        h3{
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1rem;
+          font-family: $font2;
+          font-weight: 100;
+          margin-top: 5px;
+        }
+      }
+      .menu-price {
+        p {
+          margin: 0 10px;
+          font-size: 1.5rem;
+          color: $color2;
+          font-family: $font2;
+        }
+      }
+    }
+    .menu-6 {
+      padding: 40px 0 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      grid-area: m6;
+      border-bottom: 1px dashed rgb(180, 175, 175);
+      width: 90%;
+      margin: 0 auto;
+      .menu-img {
+        img {
+          margin: 0 10px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+      }
+      .menu-composition {
+        h3{
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1rem;
+          font-family: $font2;
+          font-weight: 100;
+          margin-top: 5px;
+        }
+      }
+      .menu-price {
+        p {
+          margin: 0 10px;
+          font-size: 1.5rem;
+          color: $color2;
+          font-family: $font2;
+        }
+      }
+    }
+    .menu-7 {
+      padding: 40px 0 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      grid-area: m7;
+      border-bottom: 1px dashed rgb(180, 175, 175);
+      width: 90%;
+      margin: 0 auto;
+      .menu-img {
+        img {
+          margin: 0 10px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+      }
+      .menu-composition {
+        h3{
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1rem;
+          font-family: $font2;
+          font-weight: 100;
+          margin-top: 5px;
+        }
+      }
+      .menu-price {
+        p {
+          margin: 0 10px;
+          font-size: 1.5rem;
+          color: $color2;
+          font-family: $font2;
+        }
+      }
+    }
+    .menu-8 {
+      padding: 40px 0 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      grid-area: m8;
+      border-bottom: 1px dashed rgb(180, 175, 175);
+      width: 90%;
+      margin: 0 auto;
+      .menu-img {
+        img {
+          margin: 0 10px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+      }
+      .menu-composition {
+        h3{
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1rem;
+          font-family: $font2;
+          font-weight: 100;
+          margin-top: 5px;
+        }
+      }
+      .menu-price {
+        p {
+          margin: 0 10px;
+          font-size: 1.5rem;
+          color: $color2;
+          font-family: $font2;
+        }
+      }
     }
   }
 }

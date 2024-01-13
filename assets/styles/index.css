@@ -257,7 +257,7 @@ header .titles p {
   background: url("../img/bg-menu-01.jpg") center/cover;
 }
 .section-2 .title {
-  margin: 40px 0 20px 0;
+  margin: 60px 0 20px 0;
 }
 .section-2 .title h3 {
   font-family: Allura, sans-serif;
@@ -305,6 +305,7 @@ header .titles p {
 .section-2 .menu {
   z-index: 1;
   width: 50%;
+  padding-bottom: 20px;
   margin: 0 auto;
   background: #eeeeee;
   border-top: 4px solid #a67245;
@@ -313,14 +314,314 @@ header .titles p {
   grid-template-areas: "m1 m2" "m3 m4" "m5 m6" "m7 m8";
 }
 .section-2 .menu .menu-1 {
+  padding: 40px 0 40px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   grid-area: m1;
+  border-bottom: 1px dashed rgb(180, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+}
+.section-2 .menu .menu-1 .menu-img img {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.section-2 .menu .menu-1 .menu-composition h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-1 .menu-composition p {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.section-2 .menu .menu-1 .menu-price p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-2 {
+  padding: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-area: m2;
+  border-bottom: 1px dashed rgb(180, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+}
+.section-2 .menu .menu-2 .menu-img img {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.section-2 .menu .menu-2 .menu-composition h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-2 .menu-composition p {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.section-2 .menu .menu-2 .menu-price p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-3 {
+  padding: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-area: m3;
+  border-bottom: 1px dashed rgb(180, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+}
+.section-2 .menu .menu-3 .menu-img img {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.section-2 .menu .menu-3 .menu-composition h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-3 .menu-composition p {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.section-2 .menu .menu-3 .menu-price p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-4 {
+  padding: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-area: m4;
+  border-bottom: 1px dashed rgb(180, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+}
+.section-2 .menu .menu-4 .menu-img img {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.section-2 .menu .menu-4 .menu-composition h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-4 .menu-composition p {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.section-2 .menu .menu-4 .menu-price p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-5 {
+  padding: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-area: m5;
+  border-bottom: 1px dashed rgb(180, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+}
+.section-2 .menu .menu-5 .menu-img img {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.section-2 .menu .menu-5 .menu-composition h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-5 .menu-composition p {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.section-2 .menu .menu-5 .menu-price p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-6 {
+  padding: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-area: m6;
+  border-bottom: 1px dashed rgb(180, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+}
+.section-2 .menu .menu-6 .menu-img img {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.section-2 .menu .menu-6 .menu-composition h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-6 .menu-composition p {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.section-2 .menu .menu-6 .menu-price p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-7 {
+  padding: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-area: m7;
+  border-bottom: 1px dashed rgb(180, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+}
+.section-2 .menu .menu-7 .menu-img img {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.section-2 .menu .menu-7 .menu-composition h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-7 .menu-composition p {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.section-2 .menu .menu-7 .menu-price p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-8 {
+  padding: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-area: m8;
+  border-bottom: 1px dashed rgb(180, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+}
+.section-2 .menu .menu-8 .menu-img img {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.section-2 .menu .menu-8 .menu-composition h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.section-2 .menu .menu-8 .menu-composition p {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.section-2 .menu .menu-8 .menu-price p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
 }/*# sourceMappingURL=index.css.map */
