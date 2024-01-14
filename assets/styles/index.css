@@ -636,7 +636,7 @@ header .titles p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 50px;
+  padding: 70px;
 }
 .section-3 .section-left {
   display: -webkit-box;
@@ -805,7 +805,5 @@ header .titles p {
   transition: 0.3s;
 }
 .section-3 .section-right .btn:hover {
-  background: #eeeeee;
-  color: #21201e;
-  border: 1px solid #21201e;
+  background: #a67245;
 }/*# sourceMappingURL=index.css.map */
