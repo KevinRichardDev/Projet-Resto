@@ -314,7 +314,7 @@ header .titles p {
   grid-template-areas: "m1 m2" "m3 m4" "m5 m6" "m7 m8";
 }
 .section-2 .menu .menu-1 {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -353,7 +353,7 @@ header .titles p {
   font-family: Poppins, sans-serif;
 }
 .section-2 .menu .menu-2 {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -392,7 +392,7 @@ header .titles p {
   font-family: Poppins, sans-serif;
 }
 .section-2 .menu .menu-3 {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,7 +431,7 @@ header .titles p {
   font-family: Poppins, sans-serif;
 }
 .section-2 .menu .menu-4 {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -470,7 +470,7 @@ header .titles p {
   font-family: Poppins, sans-serif;
 }
 .section-2 .menu .menu-5 {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -509,7 +509,7 @@ header .titles p {
   font-family: Poppins, sans-serif;
 }
 .section-2 .menu .menu-6 {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -548,7 +548,7 @@ header .titles p {
   font-family: Poppins, sans-serif;
 }
 .section-2 .menu .menu-7 {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -587,7 +587,7 @@ header .titles p {
   font-family: Poppins, sans-serif;
 }
 .section-2 .menu .menu-8 {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -624,4 +624,97 @@ header .titles p {
   font-size: 1.5rem;
   color: #a67245;
   font-family: Poppins, sans-serif;
+}
+
+.section-3 {
+  background: #21201e;
+  display: grid;
+  grid-template-columns: 15% 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+.section-3 .section-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  padding: 10px 10px;
+  width: 100%;
+}
+.section-3 .section-left .section-left-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px dashed white;
+  padding: 10px;
+  width: 100%;
+}
+.section-3 .section-left .section-left-container h3 {
+  font-size: 2rem;
+  font-family: Allura, sans-serif;
+  color: #a67245;
+  font-weight: 100;
+}
+.section-3 .section-left .section-left-container h4 {
+  font-size: 1.1rem;
+  color: white;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+}
+.section-3 .section-left .section-left-container .logo-left {
+  padding: 10px 0 10px 0;
+}
+.section-3 .section-left .section-left-container .logo-left img {
+  width: 20px;
+  height: 20px;
+}
+.section-3 .section-left .section-left-container .day1-left p {
+  text-transform: uppercase;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.section-3 .section-left .section-left-container .day1-left .time-day1-left p {
+  color: white;
+  font-size: 0.85rem;
+  text-align: center;
+}
+.section-3 .section-left .section-left-container .day2-left p {
+  text-transform: uppercase;
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.section-3 .section-left .section-left-container .day2-left .time-day2-left p {
+  color: white;
+  font-size: 0.85rem;
+  text-align: center;
+}
+.section-3 .section-left .section-left-container .number-phone p {
+  color: #a67245;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
 }/*# sourceMappingURL=index.css.map */
