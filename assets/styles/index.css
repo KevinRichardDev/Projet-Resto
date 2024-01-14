@@ -772,7 +772,33 @@ header .titles p {
   height: 20px;
 }
 .section-3 .section-right .form {
+  width: 80%;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  gap: 20px;
+  grid-template-columns: 30% 30% 30%;
+  gap: 10px;
+  outline: none;
+  margin-bottom: 40px;
+}
+.section-3 .section-right .form input[type=text], .section-3 .section-right .form [type=date], .section-3 .section-right .form [type=time], .section-3 .section-right .form [type=tel], .section-3 .section-right .form [type=email], .section-3 .section-right .form select {
+  background: transparent;
+  border: none;
+  height: 25px;
+  width: 100%;
+  border-bottom: 2px solid rgb(228, 224, 224);
+  padding-bottom: 2px;
+}
+.section-3 .section-right .form input[type=text], .section-3 .section-right .form [type=date], .section-3 .section-right .form [type=time], .section-3 .section-right .form [type=tel], .section-3 .section-right .form [type=email], .section-3 .section-right .form select:focus {
+  outline: none;
+}
+.section-3 .section-right .btn {
+  padding: 10px 25px;
+  background: #21201e;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: Poppins, sans-serif;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
