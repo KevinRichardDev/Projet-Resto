@@ -801,4 +801,11 @@ header .titles p {
   letter-spacing: 2px;
   font-size: 0.75rem;
   cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.section-3 .section-right .btn:hover {
+  background: #eeeeee;
+  color: #21201e;
+  border: 1px solid #21201e;
 }/*# sourceMappingURL=index.css.map */

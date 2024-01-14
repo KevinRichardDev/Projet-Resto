@@ -149,6 +149,12 @@
       letter-spacing: 2px;
       font-size: 0.75rem;
       cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background: $colorBg1;
+        color: $colorBg2;
+        border: 1px solid $colorBg2;
+      }
     }
   }
 }
