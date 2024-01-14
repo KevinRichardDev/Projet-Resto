@@ -689,32 +689,47 @@ header .titles p {
   width: 20px;
   height: 20px;
 }
-.section-3 .section-left .section-left-container .day1-left p {
+.section-3 .section-left .section-left-container .infos {
+  gap: 50px;
+}
+.section-3 .section-left .section-left-container .infos .day1-left p,
+.section-3 .section-left .section-left-container .infos .day1-left .title {
   text-transform: uppercase;
   color: #a67245;
   font-family: Poppins, sans-serif;
   font-size: 1rem;
   text-align: center;
 }
-.section-3 .section-left .section-left-container .day1-left .time-day1-left p {
+.section-3 .section-left .section-left-container .infos .day1-left .time-day1-left {
+  padding: 20px 0 10px 0;
+}
+.section-3 .section-left .section-left-container .infos .day1-left .time-day1-left p {
   color: white;
   font-size: 0.85rem;
   text-align: center;
 }
-.section-3 .section-left .section-left-container .day2-left p {
+.section-3 .section-left .section-left-container .infos .day2-left p,
+.section-3 .section-left .section-left-container .infos .day2-left .title {
   text-transform: uppercase;
   color: #a67245;
   font-family: Poppins, sans-serif;
   font-size: 1rem;
   text-align: center;
 }
-.section-3 .section-left .section-left-container .day2-left .time-day2-left p {
+.section-3 .section-left .section-left-container .infos .day2-left .time-day2-left {
+  padding: 20px 0 10px 0;
+}
+.section-3 .section-left .section-left-container .infos .day2-left .time-day2-left p {
   color: white;
   font-size: 0.85rem;
   text-align: center;
 }
-.section-3 .section-left .section-left-container .number-phone p {
+.section-3 .section-left .section-left-container .infos .number-phone {
+  padding: 30px 0 10px 0;
+}
+.section-3 .section-left .section-left-container .infos .number-phone p {
   color: #a67245;
   font-family: Poppins, sans-serif;
   font-size: 1rem;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */

@@ -6,78 +6,87 @@
   align-items: center;
   padding: 50px;
   .section-left {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: black;
-   padding: 10px 10px;
-   width: 100%;
-   .section-left-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: 1px dashed white;
-    padding: 10px;
+    background: black;
+    padding: 10px 10px;
     width: 100%;
-    h3 {
-      font-size: 2rem;
-      font-family: $font1;
-      color: $color2;
-      font-weight: 100;
-    }
-    h4 {
-      font-size: 1.1rem;
-      color: $color1;
-      font-family: $font2;
-      text-transform: uppercase;
-    }
-    .logo-left {
-      padding: 10px 0 10px 0;
-      img {
-        width: 20px;
-        height: 20px;
-      }
-    }
-    .day1-left {
-      p {
-        text-transform: uppercase;
+    .section-left-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px dashed white;
+      padding: 10px;
+      width: 100%;
+      h3 {
+        font-size: 2rem;
+        font-family: $font1;
         color: $color2;
-        font-family: $font2;
-        font-size: 1rem;
-        text-align: center;
+        font-weight: 100;
       }
-      .time-day1-left {
-        p {
-          color: $color1;
-          font-size: 0.85rem;
-          text-align: center;
+      h4 {
+        font-size: 1.1rem;
+        color: $color1;
+        font-family: $font2;
+        text-transform: uppercase;
+      }
+      .logo-left {
+        padding: 10px 0 10px 0;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .infos {
+        gap: 50px;
+        .day1-left {
+          p,
+          .title {
+            text-transform: uppercase;
+            color: $color2;
+            font-family: $font2;
+            font-size: 1rem;
+            text-align: center;
+          }
+          .time-day1-left {
+            padding: 20px 0 10px 0;
+            p {
+              color: $color1;
+              font-size: 0.85rem;
+              text-align: center;
+            }
+          }
+        }
+        .day2-left {
+          p,
+          .title {
+            text-transform: uppercase;
+            color: $color2;
+            font-family: $font2;
+            font-size: 1rem;
+            text-align: center;
+          }
+          .time-day2-left {
+            padding: 20px 0 10px 0;
+            p {
+              color: $color1;
+              font-size: 0.85rem;
+              text-align: center;
+            }
+          }
+        }
+        .number-phone {
+          padding: 30px 0 10px 0;
+          p {
+            color: $color2;
+            font-family: $font2;
+            font-size: 1rem;
+            text-align: center;
+          }
         }
       }
     }
-    .day2-left {
-      p {
-        text-transform: uppercase;
-        color: $color2;
-        font-family: $font2;
-        font-size: 1rem;
-        text-align: center;
-      }
-      .time-day2-left {
-        p {
-          color: $color1;
-          font-size: 0.85rem;
-          text-align: center;
-        }
-      }
-    }
-    .number-phone {
-      p {
-        color: $color2;
-        font-family: $font2;
-        font-size: 1rem;
-      }
-    }
-   }
   }
 }
