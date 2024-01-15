@@ -857,6 +857,8 @@ header .titles p {
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
+  padding: 100px;
+  max-width: 100%;
 }
 .section-4 .container .date {
   display: -webkit-box;
@@ -913,10 +915,27 @@ header .titles p {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 15px;
+  width: 100%;
 }
 .section-4 .container .container-left .container-1 {
   display: grid;
   grid-template-columns: 30% 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-4 .container .container-left .container-1 .container-date1 {
+  min-height: 150px;
+  min-width: 150px;
+  background: url("../img/event-01.jpg") center/cover;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
