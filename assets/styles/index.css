@@ -850,7 +850,7 @@ header .titles p {
 }
 .section-4 .container {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 35% 22%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -859,7 +859,7 @@ header .titles p {
           align-items: center;
   gap: 15px;
   padding: 50px;
-  width: 70%;
+  width: 100%;
 }
 .section-4 .container .date {
   height: 70px;
@@ -893,18 +893,21 @@ header .titles p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100%;
   gap: 15px;
   max-width: 100%;
 }
 .section-4 .container .container-left .container-1 {
   display: grid;
-  grid-template-columns: 45% 75%;
+  grid-template-columns: 40% 60%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 .section-4 .container .container-left .container-1 .container-date1 {
   min-height: 150px;
@@ -923,6 +926,7 @@ header .titles p {
           justify-content: center;
 }
 .section-4 .container .container-left .container-1 .container-info {
+  height: 100%;
   background: #eeeeee;
   min-height: 150px;
   display: block;
@@ -959,13 +963,15 @@ header .titles p {
 }
 .section-4 .container .container-left .container-2 {
   display: grid;
-  grid-template-columns: 45% 75%;
+  grid-template-columns: 40% 60%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 .section-4 .container .container-left .container-2 .container-date2 {
   min-height: 150px;
@@ -984,6 +990,7 @@ header .titles p {
           justify-content: center;
 }
 .section-4 .container .container-left .container-2 .container-info {
+  height: 100%;
   background: #eeeeee;
   min-height: 150px;
   display: block;
@@ -1020,11 +1027,12 @@ header .titles p {
 }
 .section-4 .container-right {
   background: url("../img/event-03.jpg");
-  height: 315px;
-  width: 90%;
+  height: 100%;
+  width: 100%;
   position: relative;
 }
 .section-4 .container-right .container-3 {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1039,7 +1047,7 @@ header .titles p {
       -ms-flex-direction: column;
           flex-direction: column;
   background: #eeeeee;
-  margin: 15px;
+  margin: 20px;
   min-height: 290px;
 }
 .section-4 .container-right .container-3 .container-date3 {
@@ -1054,22 +1062,29 @@ header .titles p {
           align-items: center;
 }
 .section-4 .container-right .container-3 .container-info {
-  background: #eeeeee;
-  min-height: 150px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #eeeeee;
+  min-height: 150px;
+  padding-top: 10px;
 }
 .section-4 .container-right .container-3 .container-info h4 {
   font-family: Roboto, sans-serif;
   font-size: 1.2rem;
   letter-spacing: 1px;
   font-weight: 100;
-  padding: 20px 0 20px 20px;
+  max-width: 90%;
+  padding-top: 15px;
   display: inline-block;
   text-align: center;
 }
@@ -1077,21 +1092,23 @@ header .titles p {
   font-family: Roboto, sans-serif;
   color: grey;
   font-size: 0.85rem;
-  padding: 0 0 20px 10px;
   text-align: center;
   display: inline-block;
+  padding-bottom: 15px;
 }
 .section-4 .container-right .container-3 .container-info span {
   margin: 0 5px;
 }
 .section-4 .container-right .container-3 .container-info a {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
   display: inline-block;
   width: 100%;
   font-family: Roboto, sans-serif;
   color: #21201e;
   text-transform: uppercase;
   font-weight: 600;
-  padding: 0 0 0 20px;
   font-size: 0.9rem;
   text-align: center;
 }/*# sourceMappingURL=index.css.map */
