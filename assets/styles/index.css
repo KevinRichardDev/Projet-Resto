@@ -923,7 +923,7 @@ header .titles p {
           justify-content: center;
 }
 .section-4 .container .container-left .container-1 .container-info {
-  background: white;
+  background: #eeeeee;
   min-height: 150px;
   display: block;
   -webkit-box-align: center;
@@ -932,4 +932,89 @@ header .titles p {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+}
+.section-4 .container .container-left .container-1 .container-info h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  padding: 20px 0 20px 20px;
+}
+.section-4 .container .container-left .container-1 .container-info p {
+  font-family: Roboto, sans-serif;
+  color: grey;
+  font-size: 0.85rem;
+  padding: 0 0 20px 10px;
+}
+.section-4 .container .container-left .container-1 .container-info span {
+  margin: 0 5px;
+}
+.section-4 .container .container-left .container-1 .container-info a {
+  font-family: Roboto, sans-serif;
+  color: #21201e;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 0 0 20px;
+  font-size: 0.9rem;
+}
+.section-4 .container .container-left .container-2 {
+  display: grid;
+  grid-template-columns: 45% 75%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-4 .container .container-left .container-2 .container-date2 {
+  min-height: 150px;
+  min-width: 150px;
+  background: url("../img/event-02.jpg") center/cover;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-4 .container .container-left .container-2 .container-info {
+  background: #eeeeee;
+  min-height: 150px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.section-4 .container .container-left .container-2 .container-info h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  padding: 20px 0 20px 20px;
+}
+.section-4 .container .container-left .container-2 .container-info p {
+  font-family: Roboto, sans-serif;
+  color: grey;
+  font-size: 0.85rem;
+  padding: 0 0 20px 10px;
+}
+.section-4 .container .container-left .container-2 .container-info span {
+  margin: 0 5px;
+}
+.section-4 .container .container-left .container-2 .container-info a {
+  font-family: Roboto, sans-serif;
+  color: #21201e;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 0 0 20px;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=index.css.map */

@@ -81,11 +81,82 @@
           justify-content: center;
         }
         .container-info {
-          background: $color1;
+          background: $colorBg1;
           min-height: 150px;
           display: block;
           align-items: center;
           justify-content: start;
+          h4 {
+            font-family: $font3;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            font-weight: 100;
+            padding: 20px 0 20px 20px;
+          }
+          p {
+            font-family: $font3;
+            color: grey;
+            font-size: 0.85rem;
+            padding: 0 0 20px 10px;
+          }
+          span {
+            margin: 0 5px;
+          }
+          a {
+            font-family: $font3;
+            color: $colorBg2;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 0 0 0 20px;
+            font-size: 0.9rem;
+          }
+        }
+      }
+      .container-2 {
+        display: grid;
+        grid-template-columns: 45% 75%;
+        align-items: center;
+        justify-content: center;
+        .container-date2 {
+          min-height: 150px;
+          min-width: 150px;
+          background: url("../img/event-02.jpg") center/cover;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .container-info {
+          background: $colorBg1;
+          min-height: 150px;
+          display: block;
+          align-items: center;
+          justify-content: start;
+          h4 {
+            font-family: $font3;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            font-weight: 100;
+            padding: 20px 0 20px 20px;
+          }
+          p {
+            font-family: $font3;
+            color: grey;
+            font-size: 0.85rem;
+            padding: 0 0 20px 10px;
+          }
+          span {
+            margin: 0 5px;
+          }
+          a {
+            font-family: $font3;
+            color: $colorBg2;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 0 0 0 20px;
+            font-size: 0.9rem;
+          }
         }
       }
     }
