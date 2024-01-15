@@ -161,4 +161,62 @@
       }
     }
   }
+  .container-right {
+    background: url("../img/event-03.jpg");
+    height: 315px;
+    width: 90%;
+    position: relative;
+    .container-3 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      background: $colorBg1;
+      margin: 15px;
+      min-height: 290px;
+      .container-date3 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .container-info {
+        background: $colorBg1;
+        min-height: 150px;
+        display: block;
+        align-items: center;
+        justify-content: start;
+        h4 {
+          font-family: $font3;
+          font-size: 1.2rem;
+          letter-spacing: 1px;
+          font-weight: 100;
+          padding: 20px 0 20px 20px;
+          display: inline-block;
+          text-align: center;
+        }
+        p {
+          font-family: $font3;
+          color: grey;
+          font-size: 0.85rem;
+          padding: 0 0 20px 10px;
+          text-align: center;
+          display: inline-block;
+        }
+        span {
+          margin: 0 5px;
+        }
+        a {
+          display: inline-block;
+          width: 100%;
+          font-family: $font3;
+          color: $colorBg2;
+          text-transform: uppercase;
+          font-weight: 600;
+          padding: 0 0 0 20px;
+          font-size: 0.9rem;
+          text-align: center;
+        }
+      }
+    }
+  }
 }

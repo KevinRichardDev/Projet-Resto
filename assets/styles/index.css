@@ -1017,4 +1017,81 @@ header .titles p {
   font-weight: 600;
   padding: 0 0 0 20px;
   font-size: 0.9rem;
+}
+.section-4 .container-right {
+  background: url("../img/event-03.jpg");
+  height: 315px;
+  width: 90%;
+  position: relative;
+}
+.section-4 .container-right .container-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #eeeeee;
+  margin: 15px;
+  min-height: 290px;
+}
+.section-4 .container-right .container-3 .container-date3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-4 .container-right .container-3 .container-info {
+  background: #eeeeee;
+  min-height: 150px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.section-4 .container-right .container-3 .container-info h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  padding: 20px 0 20px 20px;
+  display: inline-block;
+  text-align: center;
+}
+.section-4 .container-right .container-3 .container-info p {
+  font-family: Roboto, sans-serif;
+  color: grey;
+  font-size: 0.85rem;
+  padding: 0 0 20px 10px;
+  text-align: center;
+  display: inline-block;
+}
+.section-4 .container-right .container-3 .container-info span {
+  margin: 0 5px;
+}
+.section-4 .container-right .container-3 .container-info a {
+  display: inline-block;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  color: #21201e;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 0 0 20px;
+  font-size: 0.9rem;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
