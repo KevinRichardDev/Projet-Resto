@@ -824,6 +824,7 @@ header .titles p {
           flex-direction: column;
   background: #21201e;
   padding: 50px;
+  width: 100%;
 }
 .section-4 .title-1 h3 {
   font-family: Allura, sans-serif;
@@ -849,7 +850,7 @@ header .titles p {
 }
 .section-4 .container {
   display: grid;
-  grid-template-columns: 50% 35%;
+  grid-template-columns: 60% 40%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -857,8 +858,8 @@ header .titles p {
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
-  padding: 100px;
-  max-width: 100%;
+  padding: 50px;
+  width: 70%;
 }
 .section-4 .container .date {
   height: 70px;
@@ -893,11 +894,11 @@ header .titles p {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 15px;
-  width: 100%;
+  max-width: 100%;
 }
 .section-4 .container .container-left .container-1 {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 45% 75%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -920,4 +921,15 @@ header .titles p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.section-4 .container .container-left .container-1 .container-info {
+  background: white;
+  min-height: 150px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }/*# sourceMappingURL=index.css.map */

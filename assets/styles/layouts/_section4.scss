@@ -5,6 +5,7 @@
   flex-direction: column;
   background: $colorBg2;
   padding: 50px;
+  width: 100%;
   .title-1 {
     h3 {
       font-family: $font1;
@@ -33,12 +34,12 @@
   }
   .container {
     display: grid;
-    grid-template-columns: 50% 35%;
+    grid-template-columns: 60% 40%;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding: 100px;
-    max-width: 100%;
+    padding: 50px;
+    width: 70%;
     .date {
       height: 70px;
       width: 70px;
@@ -63,10 +64,10 @@
       align-items: center;
       flex-direction: column;
       gap: 15px;
-      width: 100%;
+      max-width: 100%;
       .container-1 {
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 45% 75%;
         align-items: center;
         justify-content: center;
         .container-date1 {
@@ -78,6 +79,13 @@
           display: flex;
           align-items: center;
           justify-content: center;
+        }
+        .container-info {
+          background: $color1;
+          min-height: 150px;
+          display: block;
+          align-items: center;
+          justify-content: start;
         }
       }
     }
