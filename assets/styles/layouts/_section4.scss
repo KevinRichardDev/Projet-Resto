@@ -1,0 +1,41 @@
+.section-4 {
+  display: flex;
+  justify-content: center;align-items: center;
+  flex-direction: column;
+  background: $colorBg2;
+  padding: 50px;
+  .title-1 {
+    h3 {
+      font-family: $font1;
+      color: $color2;
+      font-size: 2.2rem;
+      font-weight: 200;
+      text-align: center;
+    }
+  }
+  .title-2{
+    h4 {
+      font-family: $font2;
+      color: $color1;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .logo {
+    padding: 30px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 50% 35%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+  }
+}

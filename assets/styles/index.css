@@ -806,4 +806,55 @@ header .titles p {
 }
 .section-3 .section-right .btn:hover {
   background: #a67245;
+}
+
+.section-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #21201e;
+  padding: 50px;
+}
+.section-4 .title-1 h3 {
+  font-family: Allura, sans-serif;
+  color: #a67245;
+  font-size: 2.2rem;
+  font-weight: 200;
+  text-align: center;
+}
+.section-4 .title-2 h4 {
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-4 .logo {
+  padding: 30px;
+}
+.section-4 .logo img {
+  width: 30px;
+  height: 30px;
+}
+.section-4 .container {
+  display: grid;
+  grid-template-columns: 50% 35%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
 }/*# sourceMappingURL=index.css.map */
