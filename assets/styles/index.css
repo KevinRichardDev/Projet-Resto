@@ -1325,4 +1325,7 @@ footer .container-footer .footer-right .footer-logo ul li {
 }
 footer .container-footer .footer-right .footer-logo ul li a {
   color: grey;
+}
+footer .container-footer .footer-right .footer-logo ul li a:hover {
+  color: white;
 }/*# sourceMappingURL=index.css.map */
