@@ -1158,10 +1158,23 @@ header .titles p {
   font-size: 1.2rem;
   text-align: center;
   line-height: 25px;
-  max-width: 90%;
-  padding: 50px;
+  max-width: 85%;
+  padding: 50px 0 25px 0;
 }
 .section-5 .container span {
   margin: 0 5px;
   font-size: 1.5rem;
+}
+.section-5 .container .name {
+  padding: 0 0 10px 0;
+  font-size: 1.5rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+}
+.section-5 .container .role {
+  color: #a67245;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  padding-bottom: 50px;
+  font-weight: 100;
 }/*# sourceMappingURL=index.css.map */
