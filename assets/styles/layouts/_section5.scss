@@ -1,0 +1,38 @@
+.section-5 {
+  background: $colorBg2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 70px 0;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    max-width: 50%;
+    background: $colorBg1;
+    .portrait {
+      img {
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50px;
+        height: auto;
+        border-radius: 50px;
+      }
+    }
+    .paragraph{
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 25px;
+      max-width: 90%;
+      padding: 50px;
+    }
+    span {
+      margin: 0 5px;
+      font-size: 1.5rem;
+    }
+  }
+}
