@@ -3,7 +3,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 0 0 70px 0;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    background: url("../img/gmap.jpg") center/cover;
+    top: 150px;
+    height: 350px;
+    width: 100%;
+  }
   .container {
     display: flex;
     justify-content: center;
@@ -12,6 +22,8 @@
     position: relative;
     max-width: 50%;
     background: $colorBg1;
+    z-index: 1;
+
     .portrait {
       img {
         position: absolute;
@@ -23,7 +35,7 @@
         border-radius: 50px;
       }
     }
-    .paragraph{
+    .paragraph {
       font-size: 1.2rem;
       text-align: center;
       line-height: 25px;
