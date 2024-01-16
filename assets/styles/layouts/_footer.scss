@@ -1,5 +1,5 @@
 footer {
-  background: url("../img/bg-footer.jpg")center/cover;
+  background: url("../img/bg-footer.jpg") center/cover;
   width: 100%;
   height: 100%;
   .container-footer {
@@ -7,31 +7,35 @@ footer {
     grid-template-columns: 40% 40%;
     align-items: center;
     justify-content: center;
-    .footer-left {
-      max-width: 100%;
+    .footer-left-container {
       display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      h3 {
-        padding: 25px 0 15px 0;
-        font-size: 2.5rem;
-        font-family: $font1;
-        color: $color2;
-        font-weight: 100;
-        text-align: left;
-        
-      }
-      p {
-        text-align: left;
-        padding: 10px 0 50px 0;
-        text-align: left;
-        font-size: 1rem;
-        line-height: 20px;
-        color: grey;
-        font-family: $font2;
-        font-weight: 100;
-        max-width: 70%;
+      align-items: center;
+      justify-content: end;
+      .footer-left {
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        h3 {
+          padding: 50px 0 15px 0;
+          font-size: 2.5rem;
+          font-family: $font1;
+          color: $color2;
+          font-weight: 100;
+          text-align: left;
+        }
+        p {
+          text-align: left;
+          padding: 10px 0 50px 0;
+          text-align: left;
+          font-size: 1rem;
+          line-height: 25px;
+          color: grey;
+          font-family: $font2;
+          font-weight: 100;
+          max-width: 80%;
+        }
       }
     }
   }
