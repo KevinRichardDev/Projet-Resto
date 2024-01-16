@@ -4,14 +4,34 @@ footer {
   height: 100%;
   .container-footer {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 40%;
     align-items: center;
     justify-content: center;
     .footer-left {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
       h3 {
-        font-size: 1.2rem;
+        padding: 25px 0 15px 0;
+        font-size: 2.5rem;
         font-family: $font1;
         color: $color2;
+        font-weight: 100;
+        text-align: left;
+        
+      }
+      p {
+        text-align: left;
+        padding: 10px 0 50px 0;
+        text-align: left;
+        font-size: 1rem;
+        line-height: 20px;
+        color: grey;
+        font-family: $font2;
+        font-weight: 100;
+        max-width: 70%;
       }
     }
   }
