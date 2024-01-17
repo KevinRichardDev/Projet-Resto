@@ -1,63 +1,59 @@
-.section-5 {
-  background: $colorBg2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 0 230px 0;
+.section5 {
+  padding: 70px 0 230px;
   position: relative;
+
   &::after {
     content: "";
-    position: absolute;
-    background: url("../img/gmap.jpg") center/cover;
-    top: 140px;
     height: 350px;
     width: 100%;
+    position: absolute;
+    background: url("../img/gmap.jpg") center/cover;
+    left: 0;
+    bottom: 0;
   }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  .quote-container {
+    background: $white;
+    z-index: 3;
     position: relative;
-    max-width: 50%;
-    background: $colorBg1;
-    z-index: 1;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 65px 70px;
+    box-shadow: 0 0 3px #333;
 
-    .portrait {
-      img {
-        position: absolute;
-        top: -25px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 50px;
-        height: auto;
-        border-radius: 50px;
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("../img/avatar-02.jpg") center/cover;
+      height: 60px;
+      width: 60px;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50px;
+    }
+    .text-container {
+      line-height: 30px;
+      max-width: 99%;
+
+      &::before {
+        content: "❝";
+      }
+      &::after {
+        content: "❞";
+      }
+      &::before,
+      &::after {
+        font-size: 1.6rem;
       }
     }
-    .paragraph {
-      font-size: 1.2rem;
-      text-align: center;
-      line-height: 25px;
-      max-width: 85%;
-      padding: 50px 0 25px 0;
-    }
-    span {
-      margin: 0 5px;
-      font-size: 1.5rem;
-    }
-    .name {
-      padding: 0 0 10px 0;
-      font-size: 1.5rem;
-      font-family: $font2;
+    h2 {
+      margin: 30px 0 15px;
+      font-family: $font3;
       font-weight: 100;
     }
-    .role {
-      color: $color2;
-      font-size: 1rem;
-      font-family: $font2;
-      padding-bottom: 50px;
-      font-weight: 100;
+    p {
+      color: $color1;
     }
   }
 }

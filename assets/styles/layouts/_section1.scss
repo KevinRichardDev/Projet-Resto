@@ -1,77 +1,41 @@
-.section-1 {
+.section1 {
   display: grid;
   grid-template-columns: 50% 50%;
-  background: $colorBg1;
-  .section-left {
-    border: 1px dashed $color2;
-    margin: 10px 10px;
-    background: $colorBg1;
-    .title-left {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 30px;
-      h3 {
-        font-family: $font1;
-        font-size: 2.5rem;
-        color: $color2;
-        font-weight: 300;
-        text-align: end;
-        text-align: center;
-      }
-      h2 {
-        font-family: $font2;
-        text-transform: uppercase;
-        font-size: 1.4rem;
-        text-align: center;
-      }
-      .img-left {
-        padding: 20px;
-        img {
-          width: 30px;
-          height: 30px;
-        }
-      }
-      .p-left {
-        width: 100%;
-        p {
-          font-family: $font2;
-          line-height: 20px;
-          font-size: 1.2rem;
-          font-weight: 100;
-          text-align: center;
-        }
-      }
-      .portrait-left {
-        padding: 30px 0 15px 0;
-        margin: 0 auto;
-        img {
-          width: 50px;
-          height: auto;
-          border-radius: 50px;
-        }
-      }
-      .name-left {
-        margin: 0 auto;
-        p {
-          font-family: $font2;
-          font-size: 1rem;
-          font-weight: 800;
-        }
-      }
-      .role-left {
-        margin: 0 auto;
-        p {
-          color: rgb(165, 164, 164);
-          text-transform: uppercase;
-          font-family: $font2;
-          font-size: 0.75rem;
-        }
-      }
+  background: $white;
+
+  .intro-text {
+    margin: 15px;
+    padding: 30px 15px;
+    border: 1px dashed $color1;
+
+    h2 {
+      color: $color1;
+      font-family: $font1;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    h3 {
+      margin-top: -12px;
+      font-family: $font2;
+    }
+    img {
+      margin: 26px;
+    }
+    img:nth-of-type(2){
+      height: 70px;
+      border-radius: 150px;
+      margin-bottom: 8px;
+    }
+    h4 {
+      font-family: $font2;
+      font-weight: 100;
+    }
+    h5 {
+      color: $grey;
+      font-size: 0.7rem;
     }
   }
-  .section-right{
+  .intro-pic {
     background: url("../img/store-01.jpg") center/cover;
   }
 }

@@ -1,157 +1,105 @@
-.section-3 {
-  background: $colorBg2;
-  display: grid;
-  grid-template-columns: 15% 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 70px;
-  .section-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    padding: 10px 10px;
-    width: 100%;
-    .section-left-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      border: 1px dashed white;
-      padding: 10px;
-      width: 100%;
-      h3 {
-        font-size: 2rem;
-        font-family: $font1;
-        color: $color2;
-        font-weight: 100;
-      }
-      h4 {
-        font-size: 1.1rem;
-        color: $color1;
-        font-family: $font2;
-        text-transform: uppercase;
-      }
-      .logo-left {
-        padding: 10px 0 10px 0;
+.section3 {
+  padding: 100px 15px 65px;
+  color: $white;
+
+  .form-content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background: $white;
+    max-width: 1050px;
+    margin: 0 auto;
+
+    .hours {
+      padding: 24px;
+      background: black;
+
+      .hours-content {
+        border: 1px dashed $grey;
+        padding: 20px 0;
+
+        h3 {
+          font-family: $font1;
+          font-size: 2.5rem;
+          font-weight: 100;
+          color: $color1;
+        }
+
+        h4 {
+          font-family: $font2;
+          margin-top: -16px;
+          letter-spacing: 2px;
+          font-size: 1.3rem;
+        }
+
         img {
-          width: 20px;
-          height: 20px;
+          margin-top: 25px;
         }
-      }
-      .infos {
-        gap: 50px;
-        .day1-left {
-          p,
-          .title {
-            text-transform: uppercase;
-            color: $color2;
-            font-family: $font2;
-            font-size: 1rem;
-            text-align: center;
-          }
-          .time-day1-left {
-            padding: 20px 0 10px 0;
-            p {
-              color: $color1;
-              font-size: 0.85rem;
-              text-align: center;
-            }
-          }
+
+        h5 {
+          text-transform: uppercase;
+          color: $color1;
+          font-family: $font2;
+          font-weight: 100;
+          font-size: 1.1rem;
+          margin: 38px 0 12px;
         }
-        .day2-left {
-          p,
-          .title {
-            text-transform: uppercase;
-            color: $color2;
-            font-family: $font2;
-            font-size: 1rem;
-            text-align: center;
-          }
-          .time-day2-left {
-            padding: 20px 0 10px 0;
-            p {
-              color: $color1;
-              font-size: 0.85rem;
-              text-align: center;
-            }
-          }
-        }
-        .number-phone {
-          padding: 30px 0 10px 0;
-          p {
-            color: $color2;
-            font-family: $font2;
-            font-size: 1rem;
-            text-align: center;
-          }
+
+        p {
+          font-size: 0.85rem;
         }
       }
     }
-  }
-  .section-right {
-    background: $colorBg1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    .title-right{
-      h3 {
-        color: $color2;
-        font-size: 2rem;
+    .form-infos {
+      @include childCenter;
+      padding: 30px 0;
+
+      h2 {
         font-family: $font1;
-        font-weight: 200;
-        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 100;
+        color: $color1;
       }
-      h4 {
+
+      h3 {
+        color: $black;
+        margin-top: -15px;
         font-family: $font2;
-        text-transform: uppercase;
-        font-size: 1.5rem;
-        text-align: center;
+        font-size: 1.8rem;
       }
-    }
-    .logo-right {
-      padding: 30px 0 50px 0;
+
       img {
-        width: 20px;
-        height: 20px;
-      }
-    }
-    .form {
-      width: 80%;
-      display: grid;
-      grid-template-columns: 30% 30% 30%;
-      gap: 10px;
-      outline: none;
-      margin-bottom: 40px;
-      input[type="text"], [type="date"], [type="time"], [type="tel"], [type="email"], select{
-        background: transparent;
-        border: none;
         height: 25px;
-        width: 100%;
-        border-bottom: 2px solid rgb(228, 224, 224);
-        padding-bottom: 2px;
+        margin: 25px;
       }
-      input[type="text"], [type="date"], [type="time"], [type="tel"], [type="email"], select:focus {
-        outline: none;
+      .form-inputs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 30px;
+
+        > * {
+          padding: 10px 0;
+          margin: 10px;
+          background: none;
+          outline: none;
+          border: none;
+          border-bottom: 1px solid $grey;
+        }
       }
-    }
-    .btn {
-      padding: 10px 25px;
-      background: $colorBg2;
-      border: none;
-      text-transform: uppercase;
-      color: $color1;
-      font-family: $font2;
-      border-radius: 50px;
-      letter-spacing: 2px;
-      font-size: 0.75rem;
-      cursor: pointer;
-      transition: 0.3s;
-      &:hover {
-        background: $color2;
+      button {
+        border: none;
+        border-radius: 50px;
+        background: $black;
+        color: $white;
+        padding: 16px 34px;
+        letter-spacing: 4px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: .2s;
+
+        &:hover {
+          transform: translateX(3px);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.433);
+        }
       }
     }
   }

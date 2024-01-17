@@ -1,386 +1,85 @@
-.section-2 {
-  display: grid;
+.section2 {
+  color: $white;
+  padding-bottom: 100px;
   position: relative;
-  grid-template-columns: 1fr;
-  align-items: center;
-  justify-items: center;
-  padding-bottom: 120px;
-  background: $colorBg2;
-  width: 100%;
-  &::after{
+
+  &::after {
     content: "";
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 600px;
     position: absolute;
+    height: 620px;
+    width: 100%;
     background: url("../img/bg-menu-01.jpg") center/cover;
+    left: 50%;
+    bottom: -330px;
+    transform: translate(-50% , -50%);
   }
-  .title {
-    margin: 60px 0 20px 0;
-    h3 {
-      font-family: $font1;
-      color: $color2;
-      font-size: 2.5rem;
-      font-weight: 100;
-    }
+  h2 {
+    color: $color1;
+    font-size: 2rem;
+    font-family: $font1;
+    font-weight: 500;
+    padding: 60px 0 30px;
   }
-  .logo-img {
-    margin: 15px auto;
-    img {
-      width: 30px;
-      height: 30px;
-    }
-  }
-  .nav-menu {
+  ul {
+    @include alignChildren(space-around);
     width: 50%;
-    ul {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      li {
-        font-size: 1.2rem;
-        font-family: $font3;
-        margin: 20px 0 35px 0;
-        position: relative;
-        &::after{
-          content: "";
-          position: absolute;
-          width: 100%;
-          border: 1px solid rgb(87, 85, 85);
-          bottom: -9px;
-          left: 0;
-        }
-        a {
-          color: $color1;
-        }
-      }
+    margin: 30px auto;
+    min-width: 500px;
+
+    li {
+      border-bottom: 1px solid $grey;
+      padding-bottom: 8px;
     }
   }
-  .menu {
-    z-index: 1;
-    width: 50%;
-    padding-bottom: 20px;
+  .meals {
+    background: $white;
+    color: $black;
+    width: 85%;
+    max-width: 800px;
     margin: 0 auto;
-    background: $colorBg1;
-    border-top: 4px solid $color2;
+    border-top: 4px solid $color1;
+    padding: 15px 0;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-areas:
-      "m1 m2"
-      "m3 m4"
-      "m5 m6"
-      "m7 m8";
-    .menu-1 {
-      padding: 20px 0 20px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      grid-area: m1;
-      border-bottom: 1px dashed rgb(180, 175, 175);
-      width: 90%;
-      margin: 0 auto;
-      .menu-img {
-        img {
-          margin: 0 10px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50px;
-        }
+    z-index: 100;
+    position: relative;
+
+    .meal {
+      display: grid;
+      grid-template-columns: 25% 60% 15%;
+      border-bottom: 1px dashed $grey;
+      padding: 30px 0;
+      margin: 0 20px;
+
+      img {
+        border-radius: 50px;
+        object-fit: cover;
+        width: 100%;
+        align-self: center;
       }
-      .menu-composition {
-        h3{
+      .meal-text {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 10px;
+        height: 100%;
+
+        h3 {
           text-transform: uppercase;
-          font-size: 1rem;
-          font-family: $font2;
-        }
-        p {
-          font-size: 1rem;
-          font-family: $font2;
-          font-weight: 100;
-          margin-top: 5px;
+          color: $black;
+          font-size: 0.8rem;
+          font-weight: bold;
+          margin-bottom: 5px;
         }
       }
-      .menu-price {
-        p {
-          margin: 0 10px;
-          font-size: 1.5rem;
-          color: $color2;
-          font-family: $font2;
-        }
-      }
-    }
-    .menu-2 {
-      padding: 20px 0 20px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      grid-area: m2;
-      border-bottom: 1px dashed rgb(180, 175, 175);
-      width: 90%;
-      margin: 0 auto;
-      .menu-img {
-        img {
-          margin: 0 10px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50px;
-        }
-      }
-      .menu-composition {
-        h3{
-          text-transform: uppercase;
-          font-size: 1rem;
-          font-family: $font2;
-        }
-        p {
-          font-size: 1rem;
-          font-family: $font2;
-          font-weight: 100;
-          margin-top: 5px;
-        }
-      }
-      .menu-price {
-        p {
-          margin: 0 10px;
-          font-size: 1.5rem;
-          color: $color2;
-          font-family: $font2;
-        }
-      }
-    }
-    .menu-3 {
-      padding: 20px 0 20px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      grid-area: m3;
-      border-bottom: 1px dashed rgb(180, 175, 175);
-      width: 90%;
-      margin: 0 auto;
-      .menu-img {
-        img {
-          margin: 0 10px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50px;
-        }
-      }
-      .menu-composition {
-        h3{
-          text-transform: uppercase;
-          font-size: 1rem;
-          font-family: $font2;
-        }
-        p {
-          font-size: 1rem;
-          font-family: $font2;
-          font-weight: 100;
-          margin-top: 5px;
-        }
-      }
-      .menu-price {
-        p {
-          margin: 0 10px;
-          font-size: 1.5rem;
-          color: $color2;
-          font-family: $font2;
-        }
-      }
-    }
-    .menu-4 {
-      padding: 20px 0 20px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      grid-area: m4;
-      border-bottom: 1px dashed rgb(180, 175, 175);
-      width: 90%;
-      margin: 0 auto;
-      .menu-img {
-        img {
-          margin: 0 10px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50px;
-        }
-      }
-      .menu-composition {
-        h3{
-          text-transform: uppercase;
-          font-size: 1rem;
-          font-family: $font2;
-        }
-        p {
-          font-size: 1rem;
-          font-family: $font2;
-          font-weight: 100;
-          margin-top: 5px;
-        }
-      }
-      .menu-price {
-        p {
-          margin: 0 10px;
-          font-size: 1.5rem;
-          color: $color2;
-          font-family: $font2;
-        }
-      }
-    }
-    .menu-5 {
-      padding: 20px 0 20px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      grid-area: m5;
-      border-bottom: 1px dashed rgb(180, 175, 175);
-      width: 90%;
-      margin: 0 auto;
-      .menu-img {
-        img {
-          margin: 0 10px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50px;
-        }
-      }
-      .menu-composition {
-        h3{
-          text-transform: uppercase;
-          font-size: 1rem;
-          font-family: $font2;
-        }
-        p {
-          font-size: 1rem;
-          font-family: $font2;
-          font-weight: 100;
-          margin-top: 5px;
-        }
-      }
-      .menu-price {
-        p {
-          margin: 0 10px;
-          font-size: 1.5rem;
-          color: $color2;
-          font-family: $font2;
-        }
-      }
-    }
-    .menu-6 {
-      padding: 20px 0 20px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      grid-area: m6;
-      border-bottom: 1px dashed rgb(180, 175, 175);
-      width: 90%;
-      margin: 0 auto;
-      .menu-img {
-        img {
-          margin: 0 10px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50px;
-        }
-      }
-      .menu-composition {
-        h3{
-          text-transform: uppercase;
-          font-size: 1rem;
-          font-family: $font2;
-        }
-        p {
-          font-size: 1rem;
-          font-family: $font2;
-          font-weight: 100;
-          margin-top: 5px;
-        }
-      }
-      .menu-price {
-        p {
-          margin: 0 10px;
-          font-size: 1.5rem;
-          color: $color2;
-          font-family: $font2;
-        }
-      }
-    }
-    .menu-7 {
-      padding: 20px 0 20px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      grid-area: m7;
-      border-bottom: 1px dashed rgb(180, 175, 175);
-      width: 90%;
-      margin: 0 auto;
-      .menu-img {
-        img {
-          margin: 0 10px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50px;
-        }
-      }
-      .menu-composition {
-        h3{
-          text-transform: uppercase;
-          font-size: 1rem;
-          font-family: $font2;
-        }
-        p {
-          font-size: 1rem;
-          font-family: $font2;
-          font-weight: 100;
-          margin-top: 5px;
-        }
-      }
-      .menu-price {
-        p {
-          margin: 0 10px;
-          font-size: 1.5rem;
-          color: $color2;
-          font-family: $font2;
-        }
-      }
-    }
-    .menu-8 {
-      padding: 20px 0 20px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      grid-area: m8;
-      border-bottom: 1px dashed rgb(180, 175, 175);
-      width: 90%;
-      margin: 0 auto;
-      .menu-img {
-        img {
-          margin: 0 10px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50px;
-        }
-      }
-      .menu-composition {
-        h3{
-          text-transform: uppercase;
-          font-size: 1rem;
-          font-family: $font2;
-        }
-        p {
-          font-size: 1rem;
-          font-family: $font2;
-          font-weight: 100;
-          margin-top: 5px;
-        }
-      }
-      .menu-price {
-        p {
-          margin: 0 10px;
-          font-size: 1.5rem;
-          color: $color2;
-          font-family: $font2;
-        }
+      > p {
+        color: $color1;
+        font-weight: 600;
+        font-size: 1.1rem;
+        display: grid;
+        width: 100%;
+        align-items: center;
       }
     }
   }
