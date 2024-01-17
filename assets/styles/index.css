@@ -616,7 +616,7 @@ footer .footer-content .right-part .follow-us ul {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: #595956;
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 200px;
   cursor: pointer;
 }
