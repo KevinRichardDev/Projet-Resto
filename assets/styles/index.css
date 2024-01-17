@@ -159,6 +159,11 @@ header .header-text div h6 {
   grid-template-columns: 50% 50%;
   background: #eee;
 }
+@media screen and (max-width: 680px) {
+  .section1 {
+    grid-template-columns: 1fr;
+  }
+}
 .section1 .intro-text {
   margin: 15px;
   padding: 30px 15px;
@@ -192,6 +197,11 @@ header .header-text div h6 {
 }
 .section1 .intro-pic {
   background: url("../img/store-01.jpg") center/cover;
+}
+@media screen and (max-width: 680px) {
+  .section1 .intro-pic {
+    display: none;
+  }
 }
 
 .section2 {
