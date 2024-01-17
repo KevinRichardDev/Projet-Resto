@@ -43,6 +43,11 @@ header nav {
   max-width: 1100px;
   margin: 0 auto;
 }
+@media screen and (max-width: 680px) {
+  header nav {
+    grid-template-columns: 50% 10% 40%;
+  }
+}
 header nav .logo {
   font-family: Allura, cursive;
   font-weight: 100;
@@ -62,6 +67,11 @@ header nav ul {
   font-size: 0.7rem;
   padding: 0 30px;
   cursor: pointer;
+}
+@media screen and (max-width: 680px) {
+  header nav ul {
+    visibility: hidden;
+  }
 }
 header nav ul li {
   position: relative;
@@ -127,6 +137,12 @@ header .header-text div h1 {
   font-weight: 700;
   margin-top: -22px;
   font-family: Poppins, serif;
+}
+@media screen and (max-width: 680px) {
+  header .header-text div h1 {
+    font-size: 2rem;
+    margin-top: -15px;
+  }
 }
 header .header-text div img {
   height: 27px;
@@ -633,7 +649,7 @@ footer .footer-content .right-part .follow-us ul {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: #595956;
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 200px;
   cursor: pointer;
 }
@@ -642,7 +658,7 @@ footer .footer-content .right-part .follow-us ul i {
   transition: 0.2s;
 }
 footer .footer-content .right-part .follow-us ul i:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
   color: #eee;
 }/*# sourceMappingURL=index.css.map */
