@@ -63,6 +63,23 @@ header nav ul {
   padding: 0 30px;
   cursor: pointer;
 }
+header nav ul li {
+  position: relative;
+}
+header nav ul li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  background: #eee;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+header nav ul li:hover::after {
+  width: 100%;
+}
 header nav .nav-icons {
   display: -webkit-box;
   display: -ms-flexbox;
